@@ -1,0 +1,8 @@
+salario = float(input("Qual o valor do salario minimo: "))
+watt = float(input("Quantos quilowatt foram gastos? "))
+umwatt = ((salario / 7) / 100)
+valorrs = (watt * umwatt)
+desconto = (valorrs * 0.10)
+print ("O valor a ser pago por cada quilowatt gasto em reais é R$" + str(umwatt)) 
+print ("O valor a ser pago pelos quilowatts gastos em reais é R$" + str(valorrs))
+print ("O valor a ser pago pelos quilowatts gastos em reais apos o desconto é R$" + str(desconto))

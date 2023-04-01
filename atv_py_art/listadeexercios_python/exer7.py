@@ -1,0 +1,6 @@
+b = input("Informe a base do retangulo: ")
+h = input("Informe a altura do retangulo: ")
+area = (b * h)
+perimetro = ((b*2) + (h*2))
+print ("A area do retangulo é: " + str(area))
+print ("O perimetro do retangulo é: " + str(perimetro))

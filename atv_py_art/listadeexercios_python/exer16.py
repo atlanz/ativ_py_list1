@@ -1,0 +1,5 @@
+valor = float(input("Insira o valor: "))
+taxa = float(input("Insira a taxa: "))
+tempo = float(input("Insira o tempo: "))
+prestacao = valor +(valor *(taxa/100)*tempo)
+print ("O valor da prestação é: " + str(prestacao))

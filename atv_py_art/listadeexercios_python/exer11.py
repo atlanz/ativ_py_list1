@@ -1,0 +1,5 @@
+c1 = float(input("Informe o valor do primeiro cateto: "))
+c2 = float(input("Informe o valor do segundo cateto: "))
+hipo2 = (c1 * c1) + (c2 * c2)
+hipo = (hipo2 ** (1/2))
+print ("A hipotenusa é: " + str(hipo))
